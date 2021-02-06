@@ -1,0 +1,8 @@
+这些压缩文件包，共有Chart，Cli，Codec，Collections，Compress，Csv，Gson，JacksonCore，JacksonDatabind，JacksonXml，Jsoup，JxPath，Lang，Math，Time十六个对象数据集。   
+解压后，是defects4j数据集。包含以下内容：
+1，XXX_fault.csv，各版本故障语句的行号。
+2，XXX.testcase，版本数，测试数目，各版本通过测试用例数、未通过测试用例数。
+3，文件夹info，只是保留数据，研究中用不到。
+4，profile，我的程序生成结果，程序谱，aep、aef、anp、anf
+5, xxx_order.bugid 有的数据集省略了中间版本。版本号并非自然排序结果。
+6，SourceCode 各故障版本的源代码。buggy以及fixed.
